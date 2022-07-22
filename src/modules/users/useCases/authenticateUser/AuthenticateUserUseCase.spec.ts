@@ -4,7 +4,6 @@ import { CreateUserUseCase } from "../createUser/CreateUserUseCase";
 import { ICreateUserDTO } from "../createUser/ICreateUserDTO";
 import { IncorrectEmailOrPasswordError } from "./IncorrectEmailOrPasswordError";
 
-
 let usersRepositoryInMemory: InMemoryUsersRepository;
 let authenticateUserUseCase: AuthenticateUserUseCase;
 let createUserUseCase: CreateUserUseCase;
